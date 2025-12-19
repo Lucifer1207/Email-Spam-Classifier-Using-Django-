@@ -51,6 +51,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'spamDetector.urls'
+ALLOWED_HOSTS = ['*']
+
 
 TEMPLATES = [
     {
